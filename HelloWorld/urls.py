@@ -25,4 +25,7 @@ urlpatterns = [
     path('main/', views.main),
     path('runoob/', views.runoob),
     path('runoob1/', views.runoob1),
+    path('runoob_list/', views.runoob_list),
+    path('runoob_default/', views.runoob_default),
+    path('runoob_safe/', views.runoob_safe),
 ]
